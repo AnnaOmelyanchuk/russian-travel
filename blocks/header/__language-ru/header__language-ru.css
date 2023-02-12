@@ -1,4 +1,4 @@
-.header__language_lang_ru {
+.header__language-ru{
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
@@ -11,7 +11,7 @@
 
 @media (max-width: 767px)
 {
-  .header__language_lang_ru {
+  .header__language-ru {
     margin-left: 18px;
     font-size: calc(18px + ((-320px + 100vw) * 0.013));
     line-height: calc(20px + ((-320px + 100vw) * 0.017));
