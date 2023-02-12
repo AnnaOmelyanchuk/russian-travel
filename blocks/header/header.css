@@ -1,0 +1,18 @@
+.header {
+  margin: 28px 46px 0 48px;
+  display: flex;
+}
+
+@media (min-width: 768px) and (max-width: 1023px)
+{
+  .header {
+    margin: 28px calc(24px + ((-768px + 100vw) * 0.094)) 24px calc(24px + ((-768px + 100vw) * 0.094));
+  }
+}
+
+@media (max-width: 767px)
+{
+  .header {
+    margin: calc(16px + ((-320px + 100vw) * 0.026)) calc(16px + ((-320px + 100vw) * 0.017)) 0 calc(16px + ((-320px + 100vw) * 0.017));
+  }
+}

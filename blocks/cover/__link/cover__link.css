@@ -1,0 +1,12 @@
+
+
+.cover__link::before{
+  contain: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 1184;
+  min-height: 740px;
+  background: url("../../images/background/cover-trains.jpg") -3px -3px #ddd;
+}

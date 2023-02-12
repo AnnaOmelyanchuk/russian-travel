@@ -1,0 +1,7 @@
+.place__paragraphs{
+
+}
+
+.place__paragraphs :first-child{
+  margin: 0;
+}

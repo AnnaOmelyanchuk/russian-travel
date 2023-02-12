@@ -1,0 +1,25 @@
+.footer__column-link{
+  text-decoration: none;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--primary-text-color);
+}
+
+@media (max-width: 767px)
+{
+  .footer__column-link{
+    font-size: calc(16px + ((767px - 100vw) * 0.0178));
+    line-height: calc(18px + ((767px - 100vw) * 0.0131));
+  }
+}
+
+@media (max-width: 320px)
+{
+  .footer__column-link{
+    font-size: 24px;
+    line-height: 24px;
+  }
+}

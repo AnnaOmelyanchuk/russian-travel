@@ -1,0 +1,67 @@
+.cover{
+  display: block;
+  margin: 92px 48px 0 48px;
+  text-decoration: none;
+  list-style-type: none;
+  background: url("../../images/background/cover-trains.jpg");
+  background-size: cover;
+  height: 740px;
+  background-position: center;
+  background-repeat: no-repeat;
+ }
+
+ .cover::before {
+  content: '';
+  position: absolute;
+  min-height: 740px;
+  width: 100vw;
+  max-width: 1184px;
+  background-color: var(--primary-background-for-opacity);
+  z-index: 1;
+}
+
+.cover:hover:before  {
+  content: '';
+  position: absolute;
+  background-color: var(--primary-background-for-opacity-hover);
+}
+
+ @media (min-width: 1024px) and (max-width: 1279px){
+  .cover {
+    max-height: calc(640px + ((-1024px + 100vw) * 0.39));
+    margin: 92px calc((-1024px + 100vw) * 0.188) 0 calc((-1024px + 100vw) * 0.188);
+  }
+
+  .cover::before {
+    width: calc(100vw - (((-1024px + 100vw) * 0.188) * 2));
+    min-height: calc(640px + ((-1024px + 100vw) * 0.39));
+  }
+
+}
+
+ @media (min-width: 768px) and (max-width: 1023px){
+  .cover {
+    max-height: calc(480px + ((-768px + 100vw) * 0.627));
+    margin: 90px 0 0 0;
+  }
+
+    .cover::before {
+    min-height: calc(480px + ((-768px + 100vw) * 0.627));
+  }
+
+}
+
+@media (max-width: 767px){
+  .cover {
+    max-height: calc(200px + ((-320px + 100vw) * 0.626));
+    margin: 66px 0 0 0;
+  }
+
+      .cover::before {
+    min-height: calc(200px + ((-320px + 100vw) * 0.626));
+  }
+
+}
+
+
+

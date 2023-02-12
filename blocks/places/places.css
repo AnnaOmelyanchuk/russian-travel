@@ -1,0 +1,37 @@
+.places {
+  max-width: 984px;
+  margin: 92px 148px 0 148px;
+}
+
+.places :last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px)
+{
+  .places {
+    margin: 92px calc(48px + ((-1024px + 100vw) * 0.391)) 0 calc(48px + ((-1024px + 100vw) * 0.391))
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px)
+{
+  .places {
+  margin: calc(88px + ((-768px + 100vw) * 0.015)) calc(24px + ((-768px + 100vw) * 0.094)) 0 calc(24px + ((-768px + 100vw) * 0.094));
+   }
+}
+
+@media (max-width: 767px)
+{
+  .places {
+    margin: calc(64px + ((-320px + 100vw) * 0.053)) calc((-320px + 100vw) * 0.053) 0 calc((-320px + 100vw) * 0.053);
+   }
+}
+
+@media (max-width: 320px)
+{
+  .places {
+    margin: 64px 0;
+   }
+}
