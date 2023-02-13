@@ -1,6 +1,6 @@
   .page {
     max-width: 1280px;
-    margin: 0 auto;
+    margin: auto;
     font-family: var(--primary-font);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

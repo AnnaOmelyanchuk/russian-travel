@@ -32,7 +32,7 @@
 @media (max-width: 767px)
 {
   .cover__subtitle {
-    margin: 16px auto;
+    margin: auto;
     padding: 16px 5vw 0 5vw;
     max-width: 288px;
     font-size: calc(14px + ((-320px + 100vw) * 0.0089));
