@@ -1,4 +1,4 @@
-.place__paragraph{
+.place__paragraph {
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
@@ -8,16 +8,14 @@
   margin: 24px 0 0 0;
 }
 
-@media (max-width: 1023px)
-{
+@media (max-width: 1023px) {
   .place__paragraph {
     font-size: calc(16px + ((-768px + 100vw) * 0.0071));
-   }
+  }
 }
 
 
-@media (max-width: 767px)
-{
+@media (max-width: 767px) {
   .place__paragraph {
     padding: 0 16px 0 16px;
     font-size: 16px;

@@ -5,22 +5,17 @@
   font-size: 72px;
   line-height: 76px;
   color: var(--primary-text-color);
-  float: left;
   margin: 0;
 }
 
-@media (min-width: 768px) and (max-width: 1023px)
-{
+@media (min-width: 768px) and (max-width: 1023px) {
   .place__title {
     font-size: calc(42px + ((-768px + 100vw) * 0.129));
     line-height: calc(46px + ((-768px + 100vw) * 0.117));
-    max-width: 300px;
   }
-
 }
 
-@media (max-width: 767px)
-{
+@media (max-width: 767px) {
   .place__title {
     font-size: calc(32px + ((-320px + 100vw) * 0.022));
     line-height: calc(35px + ((-320px + 100vw) * 0.024));

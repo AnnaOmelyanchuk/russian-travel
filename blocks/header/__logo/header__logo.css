@@ -4,8 +4,7 @@
   object-fit: cover;
 }
 
-@media (max-width: 767px)
-{
+@media (max-width: 767px) {
   .header__logo {
     max-width: calc(142px + ((-320px + 100vw) * 0.076));
   }

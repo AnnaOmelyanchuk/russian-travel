@@ -1,31 +1,33 @@
-@import url(../vendor/fonts/fonts.css);
-
 @import url(../vendor/normalize.css);
 
-@import url(../variables/variables.css);
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../vendor/variables.css);
 
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__language-en/header__language-en.css);
-@import url(../blocks/header/__language-ru/header__language-ru.css);
+@import url(../blocks/header/__language/header__language.css);
+@import url(../blocks/header/__language/_language-enabled/header__language_language-enabled.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
-@import url(../blocks/lead/__image/_layer/lead__image-layer.css);
-
+@import url(../blocks/lead/__image-layer/lead__image-layer.css);
 
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__ul-list/intro__ul-list.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-number/intro__list-number.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__list/photo-grid__list.css);
 @import url(../blocks/photo-grid/__image/photo-grid__image.css);
 
 @import url(../blocks/places/places.css);
@@ -42,13 +44,13 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__title/cover__title.css);
-@import url(../blocks/cover/subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
-@import url(../blocks/footer/__copyright/foter__copyright.css);
 @import url(../blocks/footer/__author/footer__author.css);
 
-@import url(../blocks/link-opacity/link-opacity.css)
+@import url(../blocks/link-opacity/link-opacity.css);
 
+/** {outline: 1px solid yellowgreen;} опция для проверки*/

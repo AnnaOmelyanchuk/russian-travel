@@ -6,12 +6,10 @@
   line-height: 22px;
   text-decoration-line: underline;
   color: var(--primary-text-color);
-
 }
 
-@media (max-width: 767px)
-{
-  .place__link{
+@media (max-width: 767px) {
+  .place__link {
     margin: 0 16px 0 16px;
   }
 }

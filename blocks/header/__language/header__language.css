@@ -1,4 +1,4 @@
-.header__language-en {
+.header__language {
   margin-left: 18px;
   font-family: var(--primary-font);
   font-style: normal;
@@ -7,11 +7,11 @@
   line-height: 28px;
   text-align: right;
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 
-@media (max-width: 767px)
-{
-  .header__language-en {
+@media (max-width: 767px) {
+  .header__language {
     font-size: calc(18px + ((-320px + 100vw) * 0.013));
     line-height: calc(20px + ((-320px + 100vw) * 0.017));
   }
