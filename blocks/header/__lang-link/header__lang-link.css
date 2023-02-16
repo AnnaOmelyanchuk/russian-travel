@@ -3,3 +3,7 @@
   margin-left: auto;
   align-self: center;
 }
+
+.header__lang-link :first-child {
+  margin-left: 0;
+}
